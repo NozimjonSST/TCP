@@ -1,18 +1,24 @@
 # TCP
 Final Project
 
-# TCP File Transfer
+# Python P2P File Transfer System
 
-This is a Python-based client-server application that allows you to transfer files over TCP/IP using sockets. The client can send image, CSV, and JSON files to the server, which can then visualize the files on the client side.
+This is a Python-based peer-to-peer file transfer system using the TCP protocol. The system allows clients to send and receive various file types (images, CSV, JSON) between each other.
 
-## Prerequisites
+## Features
+
+- Send image files and visualize them on the recipient's side.
+- Send CSV files and display their contents.
+- Send JSON files and parse their contents.
+
+## Requirements
 
 - Python 3.x
-- Required Python libraries: `socket`, `os`, `json`, `csv`, `PIL`
+- Required Python packages: socket, os, json, csv, PIL (Python Imaging Library)
 
 ## Usage
 
 1. Clone the repository:
 
-   ```shell
-   git clone https://github.com/your-username/tcp-file-transfer.git
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
